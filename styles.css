@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  body {
+    background-color: #fef8ff;
+    color: #6a5a8c;
+    overflow: hidden;
+    user-select: none;
+  }
+  
+  .app-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title-bar {
+    height: 32px;
+    background-color: #e2c6ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    -webkit-app-region: drag;
+  }
+  
+  .window-controls {
+    -webkit-app-region: no-drag;
+  }
+  
+  .window-controls button {
+    background: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  #minimize-btn {
+    background-color: #ffc14c;
+  }
+  
+  #close-btn {
+    background-color: #ff6c5c;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .mascot img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .welcome-message {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .welcome-message h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #8a6cca;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .cute-button {
+    background-color: #d4a9ff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cute-button:hover {
+    transform: scale(1.05);
+    background-color: #c58aff;
+  }
