@@ -1,1 +1,1 @@
-My First Attempt at a desktop App. Probably for notes. lets try to make it work!
+My First Attempt at a Desktop App for Notes Using Electron JS
