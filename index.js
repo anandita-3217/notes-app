@@ -46,6 +46,9 @@ app.on("window-all-closed", () => {
 ipcMain.on("minimize-window", () => {
     win.minimize();
   });
+ipcMain.on("maximize-window", () => {
+    win.maximize();
+  });
   
   ipcMain.on("close-window", () => {
     win.close();
